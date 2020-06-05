@@ -46,14 +46,14 @@ if exist_count1==0:
 #Method-5
 
 key_list=list(Dict.keys())
-exist_count=0
+exist_count2=0
 i=0
 while(i<len(key_list)):
     if key==(key_list[i]):
         print("Exist")
-        exist_count+=1
+        exist_count2+=1
     i+=1
-if exist_count==0:
+if exist_count2==0:
     print("Not Exist")
 
 
