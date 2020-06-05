@@ -1,5 +1,7 @@
 #2.To make a full URL from tuple items
 
+#Method-1
+
 
 url_tupitem=('www','hackkerrank','com','domains','python')
 outp_url="https://"
@@ -15,7 +17,7 @@ print("Output URL: ",outp_url)
 print()
 
 
-#user input
+#Method-2 user input
 
 
 user_inp=input("Enter the tuple elements: ").split(",")
